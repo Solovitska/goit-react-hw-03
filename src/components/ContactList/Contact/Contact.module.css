@@ -1,21 +1,21 @@
 .list {
-  list-style: none;
-  display: flex;
-  gap: 16px;
-  flex-wrap: wrap;
-}
-
-.textbox {
+  border: 1px solid black;
+  border-radius: 6px;
   display: flex;
   justify-content: space-between;
-  width: 300px;
-  padding: 8px;
-  border: 1px solid black;
-  border-radius: 8px;
   align-items: center;
-  transition: box-shadow 250ms ease-in-out;
+  padding: 0 18px 0 18px;
+  width: 300px;
+  height: 75px;
 }
-
-.textbox:hover {
-  box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);
+.list:not(:last-child) {
+  margin-bottom: 8px;
 }
+.textbox{
+  display: flex;
+  align-items: flex-end;
+  gap: 8px;
+}
+.textbox:not(:last-child) {
+  margin-bottom: 12px;
+} 
