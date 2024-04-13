@@ -8,7 +8,6 @@
 .item {
   display: flex;
   justify-content: space-between;
-  width: 400px;
   padding: 8px;
   border: 1px solid black;
   border-radius: 8px;
